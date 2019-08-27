@@ -1,5 +1,9 @@
 
 
-https://docs.aws.amazon.com/sdk-for-java/v2/developer-guide/examples-dynamodb.html
+New SDK Link : https://docs.aws.amazon.com/sdk-for-java/v2/developer-guide/examples-dynamodb.html
+
+Based On : https://github.com/tahniat-ashraf/aws-doc-sdk-examples
+
+
 
 

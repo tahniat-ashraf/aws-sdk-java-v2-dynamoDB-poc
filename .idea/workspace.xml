@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b56b6f9-7e2b-4d0e-b645-fe2c4447f1d5" name="Default Changelist" comment="" />
+    <list default="true" id="5b56b6f9-7e2b-4d0e-b645-fe2c4447f1d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,12 +31,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/note.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="84">
+              <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="65" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bkash/rnd/dynamoDB/CreateTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1953" />
           </provider>
         </entry>
       </file>
@@ -61,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bkash/rnd/dynamoDB/DeleteItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+            <state relative-caret-position="336">
+              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,6 +116,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -108,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bkash/rnd/dynamoDB/PutItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bkash/rnd/dynamoDB/Query.java" />
         <option value="$PROJECT_DIR$/src/main/resources/note.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -132,6 +158,9 @@
     <option name="y" value="41" />
     <option name="width" value="1592" />
     <option name="height" value="923" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -172,19 +201,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dynamoDB" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="aws-sdk-dynamoDB-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aws-sdk-dynamoDB-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aws-sdk-dynamoDB-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aws-sdk-dynamoDB-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -193,7 +209,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -217,7 +235,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Query">
+  <component name="RunManager" selected="Application.CreateTable">
+    <configuration name="CreateTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bkash.rnd.dynamoDB.CreateTable" />
+      <module name="aws-sdk-dynamoDB-poc" />
+      <option name="PROGRAM_PARAMETERS" value="Table1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bkash.rnd.dynamoDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeleteItem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bkash.rnd.dynamoDB.DeleteItem" />
       <module name="aws-sdk-dynamoDB-poc" />
@@ -274,34 +306,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateItem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bkash.rnd.dynamoDB.UpdateItem" />
-      <module name="aws-sdk-dynamoDB-poc" />
-      <option name="PROGRAM_PARAMETERS" value="HelloWorld Shorno default=000000 bold=b22222" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bkash.rnd.dynamoDB.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.UpdateItem" />
       <item itemvalue="Application.PutItem" />
       <item itemvalue="Application.GetItem" />
       <item itemvalue="Application.DeleteItem" />
       <item itemvalue="Application.Query" />
+      <item itemvalue="Application.CreateTable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateTable" />
         <item itemvalue="Application.Query" />
         <item itemvalue="Application.PutItem" />
         <item itemvalue="Application.GetItem" />
         <item itemvalue="Application.DeleteItem" />
-        <item itemvalue="Application.UpdateItem" />
       </list>
     </recent_temporary>
   </component>
@@ -315,12 +333,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566891711220</updated>
-      <workItem from="1566891715390" duration="7724000" />
+      <workItem from="1566891715390" duration="8980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7724000" />
+    <option name="totallyTimeSpent" value="8980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="41" width="1592" height="923" extended-state="0" />
@@ -403,16 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkash/rnd/dynamoDB/CreateTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -443,16 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkash/rnd/dynamoDB/DeleteItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bkash/rnd/dynamoDB/PutItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
@@ -475,8 +473,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/note.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="84">
+          <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1953" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkash/rnd/dynamoDB/CreateTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bkash/rnd/dynamoDB/DeleteItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
