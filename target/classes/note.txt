@@ -1,0 +1,5 @@
+
+
+https://docs.aws.amazon.com/sdk-for-java/v2/developer-guide/examples-dynamodb.html
+
+
