@@ -8,7 +8,8 @@
 ## Pre-Requisite:
 
 1. [Docker installed](https://www.docker.com/)
-2. [Locally running DynamoDB](https://github.com/instructure/dynamo-local-admin-docker)
+2. [Little bit of prior knowledge of how docker works](https://gist.github.com/tahniat-ashraf/30b2759a9bc86f70695990f2d97e940a)
+3. [Locally running DynamoDB](https://github.com/instructure/dynamo-local-admin-docker)
 
 ## Usage:
 ```
@@ -18,4 +19,6 @@ If you are running Intellij or any other IDEs, pass these as Program arguments f
 3. GetItem : HelloWorld Tahniat (retrieves the row from HelloWorld table having pk name=Tahniat)
 4. DeleteItem : HelloWorld Tahniat (deletes a row from HelloWorld table having pk name=Tahniat)
 5. Query : HelloWorld Name Tahniat (queries on a partition key (pk/gsi). Here it queries on table HelloWorld over the pk name where name is Tahniat)
+
+Assuming you've got dynamoDB running at your port 8000 (pre-requisite), go to http://localhost:8000/ to see the changes live!
 ```
